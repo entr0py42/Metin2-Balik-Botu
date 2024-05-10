@@ -1,4 +1,4 @@
-# Metin2-Fish-Bot-emoji-minigame-
+# Metin2 Balık Botu
 Eski balık tutma sisteminde çalışan balık tutma botu.
 
 Kullanım:
