@@ -3,20 +3,20 @@ Eski balık tutma sisteminde çalışan balık tutma botu.
 
 # BU BİR HİLE. BAN RİSKİNİ GÖZE ALAMIYORSAN KULLANMA.
 
-Kurulum:
-Python kur
-cmd aç
-```pip install pyautogui``` kodunu çalıştır
+## Kurulum:
+- Python kur
+- cmd aç
+- ```pip install pyautogui``` kodunu çalıştır
 
-Kullanım:
-Oyunu 800x600 çözünürlüğe çek,
-Oyuniçi ayarlardan isimleri ve sohbeti gizle,
-Yemi 4'e koy,
-Kamerayı tam tepeye çıkarıp en yakına al,
-Run.bat'ı yönetici olarak çalıştır,
-Oyunda sohbete "(fish)" yaz.
+## Kullanım:
+- Oyunu 800x600 çözünürlüğe çek,
+- Oyuniçi ayarlardan isimleri ve sohbeti gizle,
+- Yemi 4'e koy,
+- Kamerayı tam tepeye çıkarıp en yakına al,
+- Run.bat'ı yönetici olarak çalıştır,
+- Oyunda sohbete "(fish)" yaz.
 
-Özellikler:
+## Özellikler:
 + Balık geldikten sonra ne kadar bekleneceğini **ORT_BEKLEME** ile değiştirebilirsin.
 + Anti-hile'den kaçmayı denemek için **HATA_PAYI** değişkenini saniye cinsinden değiştirebilirsin. Programın balığı çekme süresi **ORT_BEKLEME±HATA_PAYI** aralığında rastgele olacak.
 + Herhangi bir hata sonucu eğer **RECAST_TIME** saniye içinde balık gelmediyse yeniden yem takıp olta atar.
@@ -26,5 +26,5 @@ Oyunda sohbete "(fish)" yaz.
 - Hızlı yem takma yok (ata bin, in veya zırh tak çıkar).
 - Güncelleme yapmayı düşünmüyorum.
 
-Hata düzeltme:
+## Hata düzeltme:
 Bazen dahil ettiğim emoji çalışmayabiliyor. Bu durumda kendin kamerayı belirttiğim şekilde yerleştirip balık geldikten sonra ss alıp dosyayı güncellemen gerek. Çözünürlüğün çok büyük olmamasına dikkat et. Eğer programın kontrol ettiği ekran çözünürlüğünden daha büyük bir resim koyarsan program çöker.
