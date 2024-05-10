@@ -1,6 +1,13 @@
 # Metin2 Balık Botu
 Eski balık tutma sisteminde çalışan balık tutma botu.
 
+# BU BİR HİLE. BAN RİSKİNİ GÖZE ALAMIYORSAN KULLANMA.
+
+Kurulum:
+Python kur
+cmd aç
+```pip install pyautogui``` kodunu çalıştır
+
 Kullanım:
 Oyunu 800x600 çözünürlüğe çek,
 Oyuniçi ayarlardan isimleri ve sohbeti gizle,
@@ -10,9 +17,9 @@ Run.bat'ı yönetici olarak çalıştır,
 Oyunda sohbete "(fish)" yaz.
 
 Özellikler:
-+ Balık geldikten sonra ne kadar bekleneceğini ORT_BEKLEME ile değiştirebilirsin.
-+ Anti-hile'den kaçmayı denemek için HATA_PAYI değişkenini saniye cinsinden değiştirebilirsin. Programın balığı çekme süresi ORT_BEKLEME±HATA_PAYI aralığında rastgele olacak.
-+ Herhangi bir hata sonucu eğer RECAST_TIME saniye içinde balık gelmediyse yeniden yem takıp olta atar.
++ Balık geldikten sonra ne kadar bekleneceğini **ORT_BEKLEME** ile değiştirebilirsin.
++ Anti-hile'den kaçmayı denemek için **HATA_PAYI** değişkenini saniye cinsinden değiştirebilirsin. Programın balığı çekme süresi **ORT_BEKLEME±HATA_PAYI** aralığında rastgele olacak.
++ Herhangi bir hata sonucu eğer **RECAST_TIME** saniye içinde balık gelmediyse yeniden yem takıp olta atar.
 + Çalışma mantığından dolayı çoğu sunucuda çalışıyor.
 - Oyunun sürekli odakta olması lazım. Yan tarafta dizi gibi bir şey açabilirsin ama hileyi başlattıktan sonra oyun dışı başka bir pencereye tıklarsan tuşlar oraya gönderilmeye başlar. Yani diziyi önce aç, sonra hileyi başlat.
 - Balığa göre çekme süresi yok.
